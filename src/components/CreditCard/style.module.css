@@ -1,4 +1,35 @@
 .container {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.containerDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.imgDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.containerImg {
+  width: 50px;
+}
+
+.cardNumber {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.infosText {
+  font-size: 13px;
 }
