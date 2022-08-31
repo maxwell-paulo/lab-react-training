@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin: 10px;
+  border: 1px solid black;
+  gap: 5px;
+  padding: 5px;
+}
+
+.containerSpan {
+  font-weight: bolder;
+}
